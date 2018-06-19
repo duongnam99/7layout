@@ -1,20 +1,20 @@
-.grid-container {
-	margin: 120px 60px 60px;
-	display: grid;
-	grid-gap: 50px;
-	grid-template-columns: auto auto auto;
+.wrap {
+	width: 1200px;
+	margin: auto;
+}
+
+.container {
+	position: relative;
 	text-align: justify;
 }
-.grid-item {
+.item {
 	background: #b2bec3;
 	border-radius: 10px;
 }
 p {
-	
 	margin-top:  100px;
 	color:  #b2bec3;
-	font-size:  70px;
-		
+	font-size:  70px;	
 	font-weight: bold;
 	text-align: center;	
 	
@@ -23,16 +23,22 @@ body {
 	background: #dfe6e9;
 }
 .item2 {
-	grid-column: 2 / span 2;
+	position:  absolute;
+	width: 695px;
+	height: 250px;
+	right:  0;
 	display: flex;
 	justify-content: center;
-	padding: 50px;
+	padding: 45px;
 }
 .item5 {
-	grid-column: 3;
-	grid-row: 2/ span 2;
+	position:  absolute;
+	right: 0;
+	top: 385px;
+	width: 280px;
+	height: 800px;
 	display:  flex;
-	padding: 50px;
+	padding: 45px;
 	flex-direction: column;
 }
 .item2 .img {
@@ -54,13 +60,21 @@ body {
 	line-height: 24px;
 }
 .item3 {
+	position:  absolute;
+	top: 385px;
+	width: 370px;
 	background: url(pexels-photo-841303.jpeg);
 	background-size: cover;
 	background-position: center center;
-	height: 400px;
+	height: 350px;
 }
 .item4 {
-	padding: 50px;
+	position:  absolute;
+	padding: 45px;
+	left: 415px;
+	top: 385px;
+	width: 280px;
+	height: 405px;
 }
 .item4 .text3 .title, .text4 .title, .item5 .text5 .title{
 	font-size:  23px;
@@ -71,16 +85,27 @@ body {
 	margin-top: 15px;
 }
 .item6 {
-	height: 540px;
-	margin-top: -240px;
-	padding: 50px;
+	position:  absolute;
+	left:  0;
+	top: 780px;
+	width: 280px;
+	height: 405px;
+	padding: 45px;
 }
 .item7 {
+	position:  absolute;
+	top: 925px;
+	width: 370px;
+	height:  350px;
 	background: url(pexels-photo-88647.jpeg);
 	background-size:  cover;
+	left: 415px;
 }
 .item1 {
-	padding: 50px;
+	position:  absolute;
+	padding: 45px;
+	width: 280px;
+	height: 250px;
 }
 .text1{
 	margin-top: 15px;
@@ -97,6 +122,8 @@ body {
 	height: 200px;
 }
 .item5 .text5{
-	margin-top: 15px
+	margin-top: 15px;
 }
-	
+.item5, .item6, .item7{
+	margin-bottom: 45px;
+}
