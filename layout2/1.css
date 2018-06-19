@@ -1,0 +1,22 @@
+body {
+	background: #dfe6e9;
+}
+.grid-container {
+	margin: 150px 60px 60px;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: auto auto auto;
+}
+.grid-item {
+	background: #b2bec3;
+	text-align:  center;
+	background-image: url(pexels-photo-1144673.jpeg);
+	height: 450px;
+}
+p {
+	margin-top:  110px;
+	color:  #b2bec3;
+	font-size:  80px;
+	font-weight: bold;	
+	text-align:  center;
+}

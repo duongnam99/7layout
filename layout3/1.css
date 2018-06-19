@@ -1,0 +1,41 @@
+body {
+	background: #dfe6e9;
+}
+.grid-container {
+	margin: 150px 60px 60px;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: auto auto;
+}
+.grid-item {
+	background: #b2bec3;
+	text-align:  center;
+	height: 450px;
+}
+p {
+	margin-top:  110px;
+	color:  #b2bec3;
+	font-size:  80px;
+	font-weight: bold;	
+	text-align:  center;
+}
+.item1 {
+	grid-column: 1/ span 2;
+}
+.item4 {
+	grid-column: 1 / span 2;
+}
+.item2, .item3, .item4 {
+	height: 110px;
+	background: #d2dae2;
+}
+.item2 {
+	
+}
+.item3 {
+
+}
+.item5 {
+	height: 130px;
+	width: 105%;
+}
