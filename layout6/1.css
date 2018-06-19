@@ -22,15 +22,15 @@ p {
     background: url(1.jpeg);
     background-size:  cover;
     left: 3%;
-    width:  30%;
+    width: 20%;
     height: 80%;
 }
 
 .content1 {
     position:  absolute;
     top: 10%;
-    left: 36%;
-    width: 61%;
+    left: 26%;
+    width: 71%;
     height: 100%;
     line-height: 32px;
     font-size: 18px;
