@@ -3,6 +3,7 @@
 - Yêu cầu:
 	- Đủ 7 giao diện, bố cục giống thiết kế, không dùng framework  
     - Chú ý các thành phần ảnh, chữ cân đối không xê dịch mất kiểm soát
+    - [Chi tiết yêu cầu](https://github.com/colombo-trainee/trainee_2018/blob/master/frontend/layout/simple%20layouts.psd)
 - Thực hiện bởi: Dương Minh Nam
 
 ## Liên kết

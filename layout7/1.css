@@ -6,32 +6,32 @@ p {
     color: #b2bec3;
 }
 .wrap {
-    width: 96%;
+    width: 1200px;
     margin: auto;
 }
 .comment1 {
     position:  relative;
     margin-top: 50px;
-    height: 300px;
+    height: 330px;
     background: #dfe6e9;
     border-radius: 15px;
 }
 .img1 {
     position:  absolute;
-    top: 5%;
+    top: 25px;
     background: url(1.jpeg);
     background-size:  cover;
-    left: 3%;
-    width:  20%;
-    height: 75%;
+    left: 25px;
+    width: 230px;
+    height: 230px;
 }
 
 .content1,input {
     position:  absolute;
-    top: 5%;
-    left: 26%;
-    width: 71%;
-    height: 72%;
+    top: 25px;
+    right:  25px;
+    width: 875px;
+    height: 221px;
     line-height: 32px;
     font-size: 18px;
     text-align: justify;
@@ -40,10 +40,10 @@ p {
 }
 button {
     position:  absolute;
-    bottom: 3%;
-    left: 26%;
-    width: 8%;
-    height: 14%;
+    bottom: 15px;
+    left: 290px;
+    width: 100px;
+    height: 45px;
     border:  none;
     border-radius: 5px;
     background: #b2bec3;
@@ -52,57 +52,31 @@ button {
 button:hover {
     cursor:  pointer;
     background: 
-p {
-    text-align:  center;
-    font-size: 80px;
-    font-weight: bold;
-    color: #b2bec3;
 }
-.wrap {
-    width: 96%;
-    margin: auto;
-}
-.comment1 {
+.comment2 {
     position:  relative;
     margin-top: 50px;
-    height: 300px;
+    height: 280px;
     background: #dfe6e9;
     border-radius: 15px;
 }
-.img1 {
+.img2 {
     position:  absolute;
-    top: 5%;
+    top: 25px;
     background: url(1.jpeg);
     background-size:  cover;
-    left: 3%;
-    width:  20%;
-    height: 75%;
+    left: 30px;
+    width: 230px;
+    height: 230px;
 }
 
-.content1,input {
+.content2 {
     position:  absolute;
-    top: 5%;
-    left: 26%;
-    width: 71%;
-    height: 72%;
+    top: 25px;
+    right: 30px;
+    width: 850px;
+    height: 100%;
     line-height: 32px;
     font-size: 18px;
     text-align: justify;
-    border: 3px solid #b2bec3;
-    background: white;
-}
-button {
-    position:  absolute;
-    bottom: 3%;
-    left: 26%;
-    width: 8%;
-    height: 14%;
-    border:  none;
-    border-radius: 5px;
-    background: #b2bec3;
-}
-
-button:hover {
-    cursor:  pointer;
-    background: #6cbf37;
 }

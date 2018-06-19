@@ -1,9 +1,6 @@
 
-html,body {
-    width: 100%;
-}
 .wrap {
-    width: 96%;
+    width: 1200px;
     margin: auto;
 }
 
@@ -17,8 +14,8 @@ p {
 .item1 {
     position:  absolute;
     left:  0;
-    width: 47.5%;
-    height: 100%;
+    width: 580px;
+    height: 580px;
     background: url(1.jpeg);
     background-size:  cover;
     background-position: center center;
@@ -26,30 +23,32 @@ p {
 .part1 {
     position:  relative;
     width:  100%;
-    height: 350px;
+    height: 580px;
 }
 
 .item2 {
     position:  absolute;
-    width: 47.5%;
+    width: 580px;
     right: 0;
     text-align:  justify;
 }
 
 .item2 .title {
-    font-size:  25px;
+    font-size: 35px;
     font-weight:  bold;
 }
 
 .item2 .content {
     margin-top: 10px;
-    line-height: 24px;
+    font-size:  18px;
+    line-height: 30px;
 }
 .item3 {
     margin-top: 40px;
     width:  100%;
     text-align:  justify;
-    line-height: 24px;
+    line-height: 30px;
+    font-size: 18px;
 }
 .circle{
     
@@ -71,7 +70,7 @@ p {
 .part2 {
     position:  relative;
     height: 500px;
-    margin-top:  40px;
+    margin: 40px 0;
 }
 
 .item {

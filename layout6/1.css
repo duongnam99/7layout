@@ -6,31 +6,31 @@ p {
     color: #b2bec3;
 }
 .wrap {
-    width: 96%;
+    width: 1200px;
     margin: auto;
 }
 .comment1 {
     position:  relative;
     margin-top: 50px;
-    height:  200px;
+    height: 280px;
     background: #dfe6e9;
     border-radius: 15px;
 }
 .img1 {
     position:  absolute;
-    top: 10%;
+    top: 25px;
     background: url(1.jpeg);
     background-size:  cover;
-    left: 3%;
-    width: 20%;
-    height: 80%;
+    left: 30px;
+    width: 230px;
+    height: 230px;
 }
 
 .content1 {
     position:  absolute;
-    top: 10%;
-    left: 26%;
-    width: 71%;
+    top: 25px;
+    right: 30px;
+    width: 850px;
     height: 100%;
     line-height: 32px;
     font-size: 18px;
